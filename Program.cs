@@ -52,7 +52,7 @@ namespace morseCode1
                 {'9' , "----."},
             };
 
-            Console.Write("Escriba la oración que desea llevar a código morse:");
+            Console.Write("Escriba la oración que desea llevar a código morse: ");
             String normaltext = Console.ReadLine();
             normaltext = normaltext.ToUpper();
 
